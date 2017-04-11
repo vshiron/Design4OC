@@ -13,13 +13,14 @@
 		010F0DAA1E97CDC8009F7CB1 /* SEEveningState.m in Sources */ = {isa = PBXBuildFile; fileRef = 010F0DA91E97CDC8009F7CB1 /* SEEveningState.m */; };
 		010F0DAC1E97DFD9009F7CB1 /* State.m in Sources */ = {isa = PBXBuildFile; fileRef = 010F0DAB1E97DFD9009F7CB1 /* State.m */; };
 		011DF5B41E9BB8E900FC5D88 /* MEOriginator.m in Sources */ = {isa = PBXBuildFile; fileRef = 011DF5B31E9BB8E900FC5D88 /* MEOriginator.m */; };
-		011DF5B71E9BB96000FC5D88 /* MEMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = 011DF5B61E9BB96000FC5D88 /* MEMemento.m */; };
 		011DF5BA1E9BBC2900FC5D88 /* MECaretaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 011DF5B91E9BBC2900FC5D88 /* MECaretaker.m */; };
 		011DF5BC1E9BBCC800FC5D88 /* Memento.m in Sources */ = {isa = PBXBuildFile; fileRef = 011DF5BB1E9BBCC800FC5D88 /* Memento.m */; };
 		011DF5BE1E9BDC9200FC5D88 /* SimpleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 011DF5BD1E9BDC9200FC5D88 /* SimpleFactory.m */; };
 		011DF5C71E9BDEBE00FC5D88 /* COLeaf.m in Sources */ = {isa = PBXBuildFile; fileRef = 011DF5C61E9BDEBE00FC5D88 /* COLeaf.m */; };
 		011DF5CD1E9BE10600FC5D88 /* COComposite.m in Sources */ = {isa = PBXBuildFile; fileRef = 011DF5CC1E9BE10600FC5D88 /* COComposite.m */; };
 		011DF5CF1E9BE20E00FC5D88 /* Composite.m in Sources */ = {isa = PBXBuildFile; fileRef = 011DF5CE1E9BE20E00FC5D88 /* Composite.m */; };
+		011DF5D21E9D143E00FC5D88 /* MEMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = 011DF5D11E9D143E00FC5D88 /* MEMemento.m */; };
+		011DF5D41E9D18BE00FC5D88 /* Strategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 011DF5D31E9D18BE00FC5D88 /* Strategy.m */; };
 		0152EFF91E8C07530086F608 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0152EFF81E8C07530086F608 /* main.m */; };
 		0152EFFC1E8C07530086F608 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0152EFFB1E8C07530086F608 /* AppDelegate.m */; };
 		0152EFFF1E8C07530086F608 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0152EFFE1E8C07530086F608 /* ViewController.m */; };
@@ -110,8 +111,6 @@
 		010F0DAB1E97DFD9009F7CB1 /* State.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = State.m; sourceTree = "<group>"; };
 		011DF5B21E9BB8E900FC5D88 /* MEOriginator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEOriginator.h; sourceTree = "<group>"; };
 		011DF5B31E9BB8E900FC5D88 /* MEOriginator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEOriginator.m; sourceTree = "<group>"; };
-		011DF5B51E9BB96000FC5D88 /* MEMemento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MEMemento.h; path = ../MEMemento.h; sourceTree = "<group>"; };
-		011DF5B61E9BB96000FC5D88 /* MEMemento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MEMemento.m; path = ../MEMemento.m; sourceTree = "<group>"; };
 		011DF5B81E9BBC2900FC5D88 /* MECaretaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MECaretaker.h; sourceTree = "<group>"; };
 		011DF5B91E9BBC2900FC5D88 /* MECaretaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MECaretaker.m; sourceTree = "<group>"; };
 		011DF5BB1E9BBCC800FC5D88 /* Memento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Memento.m; sourceTree = "<group>"; };
@@ -122,6 +121,9 @@
 		011DF5CB1E9BE10600FC5D88 /* COComposite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COComposite.h; sourceTree = "<group>"; };
 		011DF5CC1E9BE10600FC5D88 /* COComposite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COComposite.m; sourceTree = "<group>"; };
 		011DF5CE1E9BE20E00FC5D88 /* Composite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Composite.m; sourceTree = "<group>"; };
+		011DF5D01E9D143E00FC5D88 /* MEMemento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMemento.h; sourceTree = "<group>"; };
+		011DF5D11E9D143E00FC5D88 /* MEMemento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMemento.m; sourceTree = "<group>"; };
+		011DF5D31E9D18BE00FC5D88 /* Strategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Strategy.m; sourceTree = "<group>"; };
 		0152EFF41E8C07530086F608 /* Design4OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Design4OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0152EFF81E8C07530086F608 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0152EFFA1E8C07530086F608 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -292,8 +294,8 @@
 		011DF5AE1E9BB5AA00FC5D88 /* Memento(备忘录模式) */ = {
 			isa = PBXGroup;
 			children = (
-				011DF5B51E9BB96000FC5D88 /* MEMemento.h */,
-				011DF5B61E9BB96000FC5D88 /* MEMemento.m */,
+				011DF5D01E9D143E00FC5D88 /* MEMemento.h */,
+				011DF5D11E9D143E00FC5D88 /* MEMemento.m */,
 				011DF5B21E9BB8E900FC5D88 /* MEOriginator.h */,
 				011DF5B31E9BB8E900FC5D88 /* MEOriginator.m */,
 				011DF5B81E9BBC2900FC5D88 /* MECaretaker.h */,
@@ -388,6 +390,7 @@
 				011DF5BB1E9BBCC800FC5D88 /* Memento.m */,
 				011DF5BD1E9BDC9200FC5D88 /* SimpleFactory.m */,
 				011DF5CE1E9BE20E00FC5D88 /* Composite.m */,
+				011DF5D31E9D18BE00FC5D88 /* Strategy.m */,
 			);
 			path = Design4OCTests;
 			sourceTree = "<group>";
@@ -790,7 +793,6 @@
 				018A84E51E8DF26200AA7032 /* PRHousekeeper.m in Sources */,
 				015697761E953EB30037FF07 /* BRBus.m in Sources */,
 				0152F0411E8C0EE60086F608 /* STSwimming.m in Sources */,
-				011DF5B71E9BB96000FC5D88 /* MEMemento.m in Sources */,
 				0152F0441E8C10100086F608 /* STRunning.m in Sources */,
 				010F0DA11E97CD7E009F7CB1 /* SEMorningState.m in Sources */,
 				011DF5BA1E9BBC2900FC5D88 /* MECaretaker.m in Sources */,
@@ -826,6 +828,7 @@
 				0156975B1E952FF90037FF07 /* AFMACFactory.m in Sources */,
 				018A84ED1E8DFD7000AA7032 /* ADAdaptee.m in Sources */,
 				0152F05E1E8CA7F10086F608 /* SMFactoryImpl.m in Sources */,
+				011DF5D21E9D143E00FC5D88 /* MEMemento.m in Sources */,
 				0152F0321E8C076B0086F608 /* TMCat.m in Sources */,
 				015697291E93D8D40037FF07 /* OBStudentX.m in Sources */,
 				0156971D1E93C60F0037FF07 /* OBSubject.m in Sources */,
@@ -858,6 +861,7 @@
 				010F0DAC1E97DFD9009F7CB1 /* State.m in Sources */,
 				015697781E953EF40037FF07 /* Bridge.m in Sources */,
 				018A85111E8F456F00AA7032 /* Facade.m in Sources */,
+				011DF5D41E9D18BE00FC5D88 /* Strategy.m in Sources */,
 				011DF5CF1E9BE20E00FC5D88 /* Composite.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

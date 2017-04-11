@@ -12,7 +12,7 @@
 @end
 @implementation STContext
 
-+(instancetype)implWithIstragty:(id<IStrategy>)iStrategy{
++(instancetype)initWithIstragty:(id<IStrategy>)iStrategy{
     STContext * i =  [[STContext alloc] init];
     i.impl = iStrategy;
     return i;
