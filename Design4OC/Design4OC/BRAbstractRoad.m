@@ -7,12 +7,8 @@
 //
 
 #import "BRAbstractRoad.h"
-#define MASMethodNotImplemented() \
-@throw [NSException exceptionWithName:NSInternalInconsistencyException \
-reason:[NSString stringWithFormat:@"You must override %@ in a subclass.", NSStringFromSelector(_cmd)] \
-userInfo:nil]
+#import "Common.h"
 @interface BRAbstractRoad()
-
 @end
 
 @implementation BRAbstractRoad

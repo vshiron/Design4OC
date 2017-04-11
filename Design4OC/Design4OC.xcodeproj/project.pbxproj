@@ -79,6 +79,10 @@
 		018A850F1E8F413600AA7032 /* BUPlaneDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 018A850E1E8F413600AA7032 /* BUPlaneDirector.m */; };
 		018A85111E8F456F00AA7032 /* Facade.m in Sources */ = {isa = PBXBuildFile; fileRef = 018A85101E8F456F00AA7032 /* Facade.m */; };
 		018A85131E8F45C300AA7032 /* Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 018A85121E8F45C300AA7032 /* Builder.m */; };
+		01EC70141E9D2D6700F08EF7 /* CDWarship.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EC70131E9D2D6700F08EF7 /* CDWarship.m */; };
+		01EC70171E9D2E4B00F08EF7 /* CDCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EC70161E9D2E4B00F08EF7 /* CDCommand.m */; };
+		01EC701B1E9D325E00F08EF7 /* CDMasters.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EC701A1E9D325E00F08EF7 /* CDMasters.m */; };
+		01EC701D1E9D342B00F08EF7 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EC701C1E9D342B00F08EF7 /* Command.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -248,6 +252,14 @@
 		018A85101E8F456F00AA7032 /* Facade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facade.m; sourceTree = "<group>"; };
 		018A85121E8F45C300AA7032 /* Builder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Builder.m; sourceTree = "<group>"; };
 		018A851B1E93C48700AA7032 /* OBSubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBSubject.h; sourceTree = "<group>"; };
+		01EC70121E9D2D6700F08EF7 /* CDWarship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDWarship.h; sourceTree = "<group>"; };
+		01EC70131E9D2D6700F08EF7 /* CDWarship.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDWarship.m; sourceTree = "<group>"; };
+		01EC70151E9D2E4B00F08EF7 /* CDCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCommand.h; sourceTree = "<group>"; };
+		01EC70161E9D2E4B00F08EF7 /* CDCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCommand.m; sourceTree = "<group>"; };
+		01EC70181E9D309600F08EF7 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		01EC70191E9D325E00F08EF7 /* CDMasters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDMasters.h; sourceTree = "<group>"; };
+		01EC701A1E9D325E00F08EF7 /* CDMasters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDMasters.m; sourceTree = "<group>"; };
+		01EC701C1E9D342B00F08EF7 /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -339,6 +351,8 @@
 		0152EFF61E8C07530086F608 /* Design4OC */ = {
 			isa = PBXGroup;
 			children = (
+				01EC70181E9D309600F08EF7 /* Common.h */,
+				01EC70111E9D2D2900F08EF7 /* Command(命令模式) */,
 				011DF5BF1E9BDD7800FC5D88 /* Composite(组合模式) */,
 				011DF5AE1E9BB5AA00FC5D88 /* Memento(备忘录模式) */,
 				010F0D891E97CB37009F7CB1 /* State(状态模式) */,
@@ -391,6 +405,7 @@
 				011DF5BD1E9BDC9200FC5D88 /* SimpleFactory.m */,
 				011DF5CE1E9BE20E00FC5D88 /* Composite.m */,
 				011DF5D31E9D18BE00FC5D88 /* Strategy.m */,
+				01EC701C1E9D342B00F08EF7 /* Command.m */,
 			);
 			path = Design4OCTests;
 			sourceTree = "<group>";
@@ -655,6 +670,19 @@
 			name = "Observer(观察者模式)";
 			sourceTree = "<group>";
 		};
+		01EC70111E9D2D2900F08EF7 /* Command(命令模式) */ = {
+			isa = PBXGroup;
+			children = (
+				01EC70121E9D2D6700F08EF7 /* CDWarship.h */,
+				01EC70131E9D2D6700F08EF7 /* CDWarship.m */,
+				01EC70151E9D2E4B00F08EF7 /* CDCommand.h */,
+				01EC70161E9D2E4B00F08EF7 /* CDCommand.m */,
+				01EC70191E9D325E00F08EF7 /* CDMasters.h */,
+				01EC701A1E9D325E00F08EF7 /* CDMasters.m */,
+			);
+			name = "Command(命令模式)";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -808,6 +836,7 @@
 				0156972F1E93D9090037FF07 /* OBStudentB.m in Sources */,
 				0152F0311E8C076B0086F608 /* TMAnimal.m in Sources */,
 				0152EFFC1E8C07530086F608 /* AppDelegate.m in Sources */,
+				01EC701B1E9D325E00F08EF7 /* CDMasters.m in Sources */,
 				011DF5C71E9BDEBE00FC5D88 /* COLeaf.m in Sources */,
 				0156972C1E93D8E40037FF07 /* OBStudentA.m in Sources */,
 				018A850C1E8F3CA500AA7032 /* BUPlane.m in Sources */,
@@ -842,9 +871,11 @@
 				0156977F1E9542410037FF07 /* BRMan.m in Sources */,
 				0156977B1E9541730037FF07 /* BRAbstractPeople.m in Sources */,
 				0152F0501E8C9F440086F608 /* SMMobilePhone.m in Sources */,
+				01EC70171E9D2E4B00F08EF7 /* CDCommand.m in Sources */,
 				015697201E93C65F0037FF07 /* OBObserver.m in Sources */,
 				015697371E9482AA0037FF07 /* OBEStudentX.m in Sources */,
 				018A850F1E8F413600AA7032 /* BUPlaneDirector.m in Sources */,
+				01EC70141E9D2D6700F08EF7 /* CDWarship.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -859,6 +890,7 @@
 				015697491E951ABC0037FF07 /* AbstractFactory.m in Sources */,
 				0152F0121E8C07540086F608 /* Design4OCTests.m in Sources */,
 				010F0DAC1E97DFD9009F7CB1 /* State.m in Sources */,
+				01EC701D1E9D342B00F08EF7 /* Command.m in Sources */,
 				015697781E953EF40037FF07 /* Bridge.m in Sources */,
 				018A85111E8F456F00AA7032 /* Facade.m in Sources */,
 				011DF5D41E9D18BE00FC5D88 /* Strategy.m in Sources */,
