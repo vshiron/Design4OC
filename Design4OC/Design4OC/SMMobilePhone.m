@@ -23,8 +23,7 @@
 }
 
 @end
-@implementation SMIPhone
-@end
 
-@implementation SMAndroid
-@end
+@implementation SMIPhone@end
+
+@implementation SMAndroid@end

@@ -10,11 +10,9 @@
 
 @implementation DECarDecorator
 
--(void)setComponent:(id<DEComponent>)component{
+-(void)extraComponentOn:(id<DEComponent>)component{
     _component = component;
 }
-
-
 
 -(void)operation{
     if (self.component != nil) {
@@ -37,7 +35,6 @@ typedef enum : NSUInteger {
     LowLitght
 } LightType;
 
-
 @implementation DELightDecorator
 -(void)operation{
     [super operation];
@@ -57,7 +54,7 @@ typedef enum : NSUInteger {
     }
 }
 @end
-
+/*------------------作为装饰汽车的养狗(含公有属性)--------------------*/
 @implementation DEDogDecorator
 -(void)operation{
     [super operation];

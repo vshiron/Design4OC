@@ -9,5 +9,4 @@
 #import <Foundation/Foundation.h>
 #import "DEComponent.h"
 @interface DEBaseCar : NSObject<DEComponent>
-
 @end

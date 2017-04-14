@@ -14,8 +14,7 @@
 #import <Foundation/Foundation.h>
 #import "DEComponent.h"
 @interface DECarDecorator : NSObject<DEComponent>
-@property (nonatomic , strong ) id<DEComponent> component;
-
+@property (nonatomic , strong,setter=extraComponentOn:) id<DEComponent> component;
 @end
 
 /*------------------作为装饰汽车的沙发(不含参数和方法)--------------------*/
@@ -24,7 +23,7 @@
 /*------------------作为装饰汽车的疝气灯(含私有方法)--------------------*/
 @interface DELightDecorator : DECarDecorator
 @end
-/*------------------作为装饰汽车的养狗(含共有属性)--------------------*/
+/*------------------作为装饰汽车的养狗(含公有属性)--------------------*/
 @interface DEDogDecorator : DECarDecorator
 @property (nonatomic , strong ) NSString *name;
 @end
