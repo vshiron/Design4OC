@@ -15,7 +15,7 @@ typedef enum : NSInteger{
 }IPhoneType;
 
 @protocol SMFactory <NSObject>
-+(SMMobilePhone*)creatFactoryWithType:(IPhoneType)type;
++(SMMobilePhone*)creatMobileWithType:(IPhoneType)type;
 @end
 @interface SMFactoryImpl : NSObject<SMFactory>
 

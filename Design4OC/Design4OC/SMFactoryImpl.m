@@ -10,7 +10,7 @@
 @implementation SMFactoryImpl
 
 
-+(SMMobilePhone *)creatFactoryWithType:(IPhoneType)type{
++(SMMobilePhone *)creatMobileWithType:(IPhoneType)type{
     
     switch (type) {
         case IPhone:

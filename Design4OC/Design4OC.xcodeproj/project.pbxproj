@@ -84,6 +84,9 @@
 		01EC701B1E9D325E00F08EF7 /* CDMasters.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EC701A1E9D325E00F08EF7 /* CDMasters.m */; };
 		01EC701D1E9D342B00F08EF7 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EC701C1E9D342B00F08EF7 /* Command.m */; };
 		01EC701F1E9F934F00F08EF7 /* Decorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EC701E1E9F934F00F08EF7 /* Decorator.m */; };
+		01EC70231EA1AB7500F08EF7 /* FMMobilePhoneFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EC70221EA1AB7500F08EF7 /* FMMobilePhoneFactory.m */; };
+		01EC70261EA1ABAB00F08EF7 /* FMMobilePhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EC70251EA1ABAB00F08EF7 /* FMMobilePhone.m */; };
+		01EC70281EA1B09900F08EF7 /* FactroyMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EC70271EA1B09900F08EF7 /* FactroyMethod.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -262,6 +265,11 @@
 		01EC701A1E9D325E00F08EF7 /* CDMasters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDMasters.m; sourceTree = "<group>"; };
 		01EC701C1E9D342B00F08EF7 /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
 		01EC701E1E9F934F00F08EF7 /* Decorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decorator.m; sourceTree = "<group>"; };
+		01EC70211EA1AB7500F08EF7 /* FMMobilePhoneFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMMobilePhoneFactory.h; sourceTree = "<group>"; };
+		01EC70221EA1AB7500F08EF7 /* FMMobilePhoneFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMMobilePhoneFactory.m; sourceTree = "<group>"; };
+		01EC70241EA1ABAB00F08EF7 /* FMMobilePhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMMobilePhone.h; sourceTree = "<group>"; };
+		01EC70251EA1ABAB00F08EF7 /* FMMobilePhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMMobilePhone.m; sourceTree = "<group>"; };
+		01EC70271EA1B09900F08EF7 /* FactroyMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactroyMethod.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -369,6 +377,7 @@
 				018A84D01E8D45F900AA7032 /* Proxy(代理模式) */,
 				018A84C81E8D363400AA7032 /* Decorator(装饰模式) */,
 				0152F04D1E8C9D6B0086F608 /* SimpleFactory(简单工厂模式) */,
+				01EC70201EA1AAC300F08EF7 /* FactoryMethod(工厂方法模式) */,
 				0152F0371E8C0BF00086F608 /* Strategy(策略模式) */,
 				0152F02A1E8C076B0086F608 /* TemplateMethod(模板方法模式) */,
 				0152EFFA1E8C07530086F608 /* AppDelegate.h */,
@@ -409,6 +418,7 @@
 				011DF5D31E9D18BE00FC5D88 /* Strategy.m */,
 				01EC701C1E9D342B00F08EF7 /* Command.m */,
 				01EC701E1E9F934F00F08EF7 /* Decorator.m */,
+				01EC70271EA1B09900F08EF7 /* FactroyMethod.m */,
 			);
 			path = Design4OCTests;
 			sourceTree = "<group>";
@@ -686,6 +696,17 @@
 			name = "Command(命令模式)";
 			sourceTree = "<group>";
 		};
+		01EC70201EA1AAC300F08EF7 /* FactoryMethod(工厂方法模式) */ = {
+			isa = PBXGroup;
+			children = (
+				01EC70211EA1AB7500F08EF7 /* FMMobilePhoneFactory.h */,
+				01EC70221EA1AB7500F08EF7 /* FMMobilePhoneFactory.m */,
+				01EC70241EA1ABAB00F08EF7 /* FMMobilePhone.h */,
+				01EC70251EA1ABAB00F08EF7 /* FMMobilePhone.m */,
+			);
+			name = "FactoryMethod(工厂方法模式)";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -864,6 +885,7 @@
 				0152F0321E8C076B0086F608 /* TMCat.m in Sources */,
 				015697291E93D8D40037FF07 /* OBStudentX.m in Sources */,
 				0156971D1E93C60F0037FF07 /* OBSubject.m in Sources */,
+				01EC70261EA1ABAB00F08EF7 /* FMMobilePhone.m in Sources */,
 				0156973E1E9518550037FF07 /* AFAFNetworkingTool.m in Sources */,
 				018A84CF1E8D39B500AA7032 /* DECarDecorator.m in Sources */,
 				010F0DAA1E97CDC8009F7CB1 /* SEEveningState.m in Sources */,
@@ -871,6 +893,7 @@
 				015697671E9539840037FF07 /* BRAbstractRoad.m in Sources */,
 				018A84FB1E8E84B800AA7032 /* FAFood.m in Sources */,
 				015697821E9542500037FF07 /* BRWoman.m in Sources */,
+				01EC70231EA1AB7500F08EF7 /* FMMobilePhoneFactory.m in Sources */,
 				0156977F1E9542410037FF07 /* BRMan.m in Sources */,
 				0156977B1E9541730037FF07 /* BRAbstractPeople.m in Sources */,
 				0152F0501E8C9F440086F608 /* SMMobilePhone.m in Sources */,
@@ -887,6 +910,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				018A85131E8F45C300AA7032 /* Builder.m in Sources */,
+				01EC70281EA1B09900F08EF7 /* FactroyMethod.m in Sources */,
 				011DF5BC1E9BBCC800FC5D88 /* Memento.m in Sources */,
 				011DF5BE1E9BDC9200FC5D88 /* SimpleFactory.m in Sources */,
 				015697261E93C92D0037FF07 /* Observer.m in Sources */,

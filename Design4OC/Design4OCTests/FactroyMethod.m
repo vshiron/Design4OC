@@ -1,19 +1,19 @@
 //
-//  SimpleFactory.m
+//  FactroyMethod.m
 //  Design4OC
 //
-//  Created by vshiron on 17/4/10.
+//  Created by vshiron on 17/4/15.
 //  Copyright © 2017年 Apress. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
-#import "SMFactoryImpl.h"
-#import "SMMobilePhone.h"
-@interface SimpleFactory : XCTestCase
+#import "FMMobilePhone.h"
+#import "FMMobilePhoneFactory.h"
+@interface FactroyMethod : XCTestCase
 
 @end
 
-@implementation SimpleFactory
+@implementation FactroyMethod
 
 - (void)setUp {
     [super setUp];
@@ -26,11 +26,14 @@
 }
 
 - (void)testExample {
-    
-    SMMobilePhone * iphone = [SMFactoryImpl creatMobileWithType:IPhone];
-    SMMobilePhone * android = [SMFactoryImpl creatMobileWithType:Android];
+    FMMobilePhoneFactory * iphoneFactory = [[FMIPhoneFactory alloc]init];
+    FMMobilePhone * iphone = [iphoneFactory creatFactory];
     [iphone useCall];
-    [android useCall];
+    
+    FMMobilePhoneFactory * andoridFactory = [[FMAndroidFactory alloc]init];
+    FMMobilePhone * andorid = [andoridFactory creatFactory];
+    [andorid useCall];
+
 }
 
 - (void)testPerformanceExample {
