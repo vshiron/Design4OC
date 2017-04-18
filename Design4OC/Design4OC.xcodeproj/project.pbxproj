@@ -90,6 +90,11 @@
 		01EC702C1EA62CAB00F08EF7 /* MEMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EC702B1EA62CAB00F08EF7 /* MEMediator.m */; };
 		01EC702F1EA62CF400F08EF7 /* MEStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EC702E1EA62CF400F08EF7 /* MEStudent.m */; };
 		01EC70311EA6313600F08EF7 /* Mediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EC70301EA6313600F08EF7 /* Mediator.m */; };
+		01EC70351EA65AA500F08EF7 /* FWUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EC70341EA65AA500F08EF7 /* FWUser.m */; };
+		01EC70391EA65BC700F08EF7 /* FWWebSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EC70381EA65BC700F08EF7 /* FWWebSite.m */; };
+		01EC703C1EA65D1000F08EF7 /* FWWebSiteFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EC703B1EA65D1000F08EF7 /* FWWebSiteFactory.m */; };
+		01EC703E1EA6627500F08EF7 /* Flyweight.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EC703D1EA6627500F08EF7 /* Flyweight.m */; };
+		01EC70411EA6665C00F08EF7 /* FWInnerWebSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EC70401EA6665C00F08EF7 /* FWInnerWebSite.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -278,6 +283,16 @@
 		01EC702D1EA62CF400F08EF7 /* MEStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEStudent.h; sourceTree = "<group>"; };
 		01EC702E1EA62CF400F08EF7 /* MEStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEStudent.m; sourceTree = "<group>"; };
 		01EC70301EA6313600F08EF7 /* Mediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mediator.m; sourceTree = "<group>"; };
+		01EC70331EA65AA500F08EF7 /* FWUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWUser.h; sourceTree = "<group>"; };
+		01EC70341EA65AA500F08EF7 /* FWUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWUser.m; sourceTree = "<group>"; };
+		01EC70361EA65B3B00F08EF7 /* FWWebSiteProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWWebSiteProtocol.h; sourceTree = "<group>"; };
+		01EC70371EA65BC700F08EF7 /* FWWebSite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWWebSite.h; sourceTree = "<group>"; };
+		01EC70381EA65BC700F08EF7 /* FWWebSite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWWebSite.m; sourceTree = "<group>"; };
+		01EC703A1EA65D1000F08EF7 /* FWWebSiteFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWWebSiteFactory.h; sourceTree = "<group>"; };
+		01EC703B1EA65D1000F08EF7 /* FWWebSiteFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWWebSiteFactory.m; sourceTree = "<group>"; };
+		01EC703D1EA6627500F08EF7 /* Flyweight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flyweight.m; sourceTree = "<group>"; };
+		01EC703F1EA6665C00F08EF7 /* FWInnerWebSite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWInnerWebSite.h; sourceTree = "<group>"; };
+		01EC70401EA6665C00F08EF7 /* FWInnerWebSite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWInnerWebSite.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -370,6 +385,7 @@
 			isa = PBXGroup;
 			children = (
 				01EC70181E9D309600F08EF7 /* Common.h */,
+				01EC70321EA65A6800F08EF7 /* Flyweight(享元模式) */,
 				01EC70291EA62C6B00F08EF7 /* Mediator(中介者模式) */,
 				01EC70111E9D2D2900F08EF7 /* Command(命令模式) */,
 				011DF5BF1E9BDD7800FC5D88 /* Composite(组合模式) */,
@@ -429,6 +445,7 @@
 				01EC701E1E9F934F00F08EF7 /* Decorator.m */,
 				01EC70271EA1B09900F08EF7 /* FactroyMethod.m */,
 				01EC70301EA6313600F08EF7 /* Mediator.m */,
+				01EC703D1EA6627500F08EF7 /* Flyweight.m */,
 			);
 			path = Design4OCTests;
 			sourceTree = "<group>";
@@ -728,6 +745,22 @@
 			name = "Mediator(中介者模式)";
 			sourceTree = "<group>";
 		};
+		01EC70321EA65A6800F08EF7 /* Flyweight(享元模式) */ = {
+			isa = PBXGroup;
+			children = (
+				01EC70361EA65B3B00F08EF7 /* FWWebSiteProtocol.h */,
+				01EC70371EA65BC700F08EF7 /* FWWebSite.h */,
+				01EC70381EA65BC700F08EF7 /* FWWebSite.m */,
+				01EC703F1EA6665C00F08EF7 /* FWInnerWebSite.h */,
+				01EC70401EA6665C00F08EF7 /* FWInnerWebSite.m */,
+				01EC70331EA65AA500F08EF7 /* FWUser.h */,
+				01EC70341EA65AA500F08EF7 /* FWUser.m */,
+				01EC703A1EA65D1000F08EF7 /* FWWebSiteFactory.h */,
+				01EC703B1EA65D1000F08EF7 /* FWWebSiteFactory.m */,
+			);
+			name = "Flyweight(享元模式)";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -883,6 +916,7 @@
 				0152F0311E8C076B0086F608 /* TMAnimal.m in Sources */,
 				0152EFFC1E8C07530086F608 /* AppDelegate.m in Sources */,
 				01EC701B1E9D325E00F08EF7 /* CDMasters.m in Sources */,
+				01EC70391EA65BC700F08EF7 /* FWWebSite.m in Sources */,
 				011DF5C71E9BDEBE00FC5D88 /* COLeaf.m in Sources */,
 				0156972C1E93D8E40037FF07 /* OBStudentA.m in Sources */,
 				018A850C1E8F3CA500AA7032 /* BUPlane.m in Sources */,
@@ -900,6 +934,7 @@
 				018A85091E8F3B4000AA7032 /* BUAirplaneBuilder.m in Sources */,
 				0156974F1E951C7B0037FF07 /* AFSQLiteTool.m in Sources */,
 				018A85061E8F3B0500AA7032 /* BUHelicopterBuilder.m in Sources */,
+				01EC703C1EA65D1000F08EF7 /* FWWebSiteFactory.m in Sources */,
 				0156975E1E9530050037FF07 /* AFIPhoneFactory.m in Sources */,
 				0156975B1E952FF90037FF07 /* AFMACFactory.m in Sources */,
 				018A84ED1E8DFD7000AA7032 /* ADAdaptee.m in Sources */,
@@ -910,6 +945,7 @@
 				0156971D1E93C60F0037FF07 /* OBSubject.m in Sources */,
 				01EC70261EA1ABAB00F08EF7 /* FMMobilePhone.m in Sources */,
 				0156973E1E9518550037FF07 /* AFAFNetworkingTool.m in Sources */,
+				01EC70411EA6665C00F08EF7 /* FWInnerWebSite.m in Sources */,
 				018A84CF1E8D39B500AA7032 /* DECarDecorator.m in Sources */,
 				010F0DAA1E97CDC8009F7CB1 /* SEEveningState.m in Sources */,
 				018A84D91E8D4D5A00AA7032 /* PRBusinessAgent.m in Sources */,
@@ -925,6 +961,7 @@
 				015697371E9482AA0037FF07 /* OBEStudentX.m in Sources */,
 				018A850F1E8F413600AA7032 /* BUPlaneDirector.m in Sources */,
 				01EC70141E9D2D6700F08EF7 /* CDWarship.m in Sources */,
+				01EC70351EA65AA500F08EF7 /* FWUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -941,6 +978,7 @@
 				015697491E951ABC0037FF07 /* AbstractFactory.m in Sources */,
 				0152F0121E8C07540086F608 /* Design4OCTests.m in Sources */,
 				010F0DAC1E97DFD9009F7CB1 /* State.m in Sources */,
+				01EC703E1EA6627500F08EF7 /* Flyweight.m in Sources */,
 				01EC701D1E9D342B00F08EF7 /* Command.m in Sources */,
 				015697781E953EF40037FF07 /* Bridge.m in Sources */,
 				018A85111E8F456F00AA7032 /* Facade.m in Sources */,
