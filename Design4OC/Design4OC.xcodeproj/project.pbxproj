@@ -95,6 +95,9 @@
 		01EC703C1EA65D1000F08EF7 /* FWWebSiteFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EC703B1EA65D1000F08EF7 /* FWWebSiteFactory.m */; };
 		01EC703E1EA6627500F08EF7 /* Flyweight.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EC703D1EA6627500F08EF7 /* Flyweight.m */; };
 		01EC70411EA6665C00F08EF7 /* FWInnerWebSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EC70401EA6665C00F08EF7 /* FWInnerWebSite.m */; };
+		01EC70441EA66B8100F08EF7 /* PTStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EC70431EA66B8100F08EF7 /* PTStudent.m */; };
+		01EC70471EA66B8900F08EF7 /* PTBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EC70461EA66B8900F08EF7 /* PTBook.m */; };
+		01EC70491EA66ECC00F08EF7 /* Prototype.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EC70481EA66ECC00F08EF7 /* Prototype.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -293,6 +296,11 @@
 		01EC703D1EA6627500F08EF7 /* Flyweight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flyweight.m; sourceTree = "<group>"; };
 		01EC703F1EA6665C00F08EF7 /* FWInnerWebSite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWInnerWebSite.h; sourceTree = "<group>"; };
 		01EC70401EA6665C00F08EF7 /* FWInnerWebSite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWInnerWebSite.m; sourceTree = "<group>"; };
+		01EC70421EA66B8100F08EF7 /* PTStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTStudent.h; sourceTree = "<group>"; };
+		01EC70431EA66B8100F08EF7 /* PTStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTStudent.m; sourceTree = "<group>"; };
+		01EC70451EA66B8900F08EF7 /* PTBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTBook.h; sourceTree = "<group>"; };
+		01EC70461EA66B8900F08EF7 /* PTBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTBook.m; sourceTree = "<group>"; };
+		01EC70481EA66ECC00F08EF7 /* Prototype.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Prototype.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -446,6 +454,7 @@
 				01EC70271EA1B09900F08EF7 /* FactroyMethod.m */,
 				01EC70301EA6313600F08EF7 /* Mediator.m */,
 				01EC703D1EA6627500F08EF7 /* Flyweight.m */,
+				01EC70481EA66ECC00F08EF7 /* Prototype.m */,
 			);
 			path = Design4OCTests;
 			sourceTree = "<group>";
@@ -493,6 +502,10 @@
 		0152F04B1E8C9D010086F608 /* Prototype(原型模式) */ = {
 			isa = PBXGroup;
 			children = (
+				01EC70421EA66B8100F08EF7 /* PTStudent.h */,
+				01EC70431EA66B8100F08EF7 /* PTStudent.m */,
+				01EC70451EA66B8900F08EF7 /* PTBook.h */,
+				01EC70461EA66B8900F08EF7 /* PTBook.m */,
 			);
 			name = "Prototype(原型模式)";
 			sourceTree = "<group>";
@@ -930,7 +943,9 @@
 				018A84F11E8DFF1700AA7032 /* ADAdapter.m in Sources */,
 				011DF5CD1E9BE10600FC5D88 /* COComposite.m in Sources */,
 				010F0DA71E97CDB8009F7CB1 /* SEAfternoonState.m in Sources */,
+				01EC70441EA66B8100F08EF7 /* PTStudent.m in Sources */,
 				015697521E951C870037FF07 /* AFCoreDataTool.m in Sources */,
+				01EC70471EA66B8900F08EF7 /* PTBook.m in Sources */,
 				018A85091E8F3B4000AA7032 /* BUAirplaneBuilder.m in Sources */,
 				0156974F1E951C7B0037FF07 /* AFSQLiteTool.m in Sources */,
 				018A85061E8F3B0500AA7032 /* BUHelicopterBuilder.m in Sources */,
@@ -976,6 +991,7 @@
 				011DF5BE1E9BDC9200FC5D88 /* SimpleFactory.m in Sources */,
 				015697261E93C92D0037FF07 /* Observer.m in Sources */,
 				015697491E951ABC0037FF07 /* AbstractFactory.m in Sources */,
+				01EC70491EA66ECC00F08EF7 /* Prototype.m in Sources */,
 				0152F0121E8C07540086F608 /* Design4OCTests.m in Sources */,
 				010F0DAC1E97DFD9009F7CB1 /* State.m in Sources */,
 				01EC703E1EA6627500F08EF7 /* Flyweight.m in Sources */,
