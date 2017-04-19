@@ -13,5 +13,7 @@
 @end
 @interface BRAbstractPeople : NSObject<BRPeopleProtocol>
 @property (nonatomic , strong ) BRAbstractRoad *road;
-
 @end
+
+@interface BRMan : BRAbstractPeople@end
+@interface BRWoman : BRAbstractPeople@end

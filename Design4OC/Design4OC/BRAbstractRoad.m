@@ -19,3 +19,17 @@
 
 -(void)run{MASMethodNotImplemented();}
 @end
+@implementation BRStreet
+-(void)run{
+    [super run];
+    [self.car run];
+    NSLog(@"沿着市区街道行驶");
+}
+@end
+@implementation BRSpeedWay
+-(void)run{
+    [super run];
+    [self.car run];
+    NSLog(@"沿着高速道路行驶");
+}
+@end

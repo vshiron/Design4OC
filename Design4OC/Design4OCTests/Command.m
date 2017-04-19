@@ -29,19 +29,19 @@
 - (void)testExample {
     
     CDWarship* warship = [[CDWarship alloc]init];
-    CDCommand* attShop = [[CDAttackShipCommand alloc] initWithWarship:warship];
+    CDCommand* attShip = [[CDAttackShipCommand alloc] initWithWarship:warship];
     CDCommand* attPlane = [[CDAttackAirplaneCommand alloc] initWithWarship:warship];
-    
+    CDCommand* defense = [[CDDefenseCommand alloc]initWithWarship:warship];
     CDMasters* master = [[CDMasters alloc]init];
     //每下一次命令攻击一次
     //攻击潜艇
-    [master setOrder:attShop];
+    [master setOrders:attShip];
+     //攻击飞机
+    [master setOrders:attPlane];
+    //攻击完后进行防御
+    [master setOrders:defense];
     [master notify];
-    //攻击飞机
-    [master setOrder:attPlane];
-    [master notify];
-    
-
+   
 }
 
 - (void)testPerformanceExample {

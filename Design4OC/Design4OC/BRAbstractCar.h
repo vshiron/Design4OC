@@ -14,3 +14,8 @@
 @interface BRAbstractCar : NSObject<BRCarProtocol>
 
 @end
+
+
+@interface BRCar : BRAbstractCar@end
+
+@interface BRBus : BRAbstractCar@end

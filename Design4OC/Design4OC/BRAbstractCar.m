@@ -7,15 +7,25 @@
 //
 
 #import "BRAbstractCar.h"
-#import <QuartzCore/CAAnimation.h>
-#define MASMethodNotImplemented() \
-@throw [NSException exceptionWithName:NSInternalInconsistencyException \
-reason:[NSString stringWithFormat:@"You must override %@ in a subclass.", NSStringFromSelector(_cmd)] \
-userInfo:nil]
+#import "Common.h"
 @implementation BRAbstractCar
 - (id)init {
     NSAssert(![self isMemberOfClass:[BRAbstractCar class]], @"BRAbstractCar is an abstract class, you should not instantiate it directly.");
     return [super init];
 }
 -(void)run{MASMethodNotImplemented();}
+@end
+
+@implementation BRCar
+-(void)run{
+    [super run];
+    NSLog(@"小汽车");
+}
+@end
+
+@implementation BRBus
+-(void)run{
+    [super run];
+    NSLog(@"公交车");
+}
 @end

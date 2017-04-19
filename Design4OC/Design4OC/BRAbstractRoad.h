@@ -9,9 +9,13 @@
 #import <Foundation/Foundation.h>
 #import "BRAbstractCar.h"
 @protocol BRRoadProtocol
-
 -(void)run;
 @end
 @interface BRAbstractRoad : NSObject<BRRoadProtocol>
 @property (nonatomic , strong) BRAbstractCar* car;
 @end
+
+
+@interface BRStreet : BRAbstractRoad@end
+
+@interface BRSpeedWay : BRAbstractRoad@end

@@ -8,14 +8,23 @@
 
 #import "CDMasters.h"
 @interface CDMasters()
-@property (nonatomic , strong ) CDCommand *command;
 
 @end
 @implementation CDMasters
--(void)setOrder:(CDCommand *)command{
-    self.command = command;
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        _commandes = [NSMutableArray array];
+    }
+    return self;
+}
+-(void)setOrders:(id<CommandProtocol>)command{
+    [_commandes addObject:command];
 }
 -(void)notify{
-    [self.command excuteCommand];
+   [_commandes enumerateObjectsUsingBlock:^(id<CommandProtocol>  _Nonnull command, NSUInteger idx, BOOL * _Nonnull stop) {
+       [command excuteCommand];
+   }];
 }
 @end

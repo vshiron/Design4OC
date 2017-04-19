@@ -54,14 +54,8 @@
 		0156975E1E9530050037FF07 /* AFIPhoneFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0156975D1E9530050037FF07 /* AFIPhoneFactory.m */; };
 		015697671E9539840037FF07 /* BRAbstractRoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 015697661E9539840037FF07 /* BRAbstractRoad.m */; };
 		0156976A1E9539E60037FF07 /* BRAbstractCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 015697691E9539E60037FF07 /* BRAbstractCar.m */; };
-		0156976D1E953E2F0037FF07 /* BRStreet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0156976C1E953E2F0037FF07 /* BRStreet.m */; };
-		015697701E953E3E0037FF07 /* BRSpeedWay.m in Sources */ = {isa = PBXBuildFile; fileRef = 0156976F1E953E3E0037FF07 /* BRSpeedWay.m */; };
-		015697731E953EA90037FF07 /* BRCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 015697721E953EA90037FF07 /* BRCar.m */; };
-		015697761E953EB30037FF07 /* BRBus.m in Sources */ = {isa = PBXBuildFile; fileRef = 015697751E953EB30037FF07 /* BRBus.m */; };
 		015697781E953EF40037FF07 /* Bridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 015697771E953EF40037FF07 /* Bridge.m */; };
 		0156977B1E9541730037FF07 /* BRAbstractPeople.m in Sources */ = {isa = PBXBuildFile; fileRef = 0156977A1E9541730037FF07 /* BRAbstractPeople.m */; };
-		0156977F1E9542410037FF07 /* BRMan.m in Sources */ = {isa = PBXBuildFile; fileRef = 0156977E1E9542410037FF07 /* BRMan.m */; };
-		015697821E9542500037FF07 /* BRWoman.m in Sources */ = {isa = PBXBuildFile; fileRef = 015697811E9542500037FF07 /* BRWoman.m */; };
 		018A84CC1E8D390C00AA7032 /* DEBaseCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 018A84CB1E8D390C00AA7032 /* DEBaseCar.m */; };
 		018A84CF1E8D39B500AA7032 /* DECarDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 018A84CE1E8D39B500AA7032 /* DECarDecorator.m */; };
 		018A84D61E8D4C6100AA7032 /* PRVendor.m in Sources */ = {isa = PBXBuildFile; fileRef = 018A84D51E8D4C6100AA7032 /* PRVendor.m */; };
@@ -214,21 +208,9 @@
 		015697661E9539840037FF07 /* BRAbstractRoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAbstractRoad.m; sourceTree = "<group>"; };
 		015697681E9539E60037FF07 /* BRAbstractCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAbstractCar.h; sourceTree = "<group>"; };
 		015697691E9539E60037FF07 /* BRAbstractCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAbstractCar.m; sourceTree = "<group>"; };
-		0156976B1E953E2F0037FF07 /* BRStreet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRStreet.h; sourceTree = "<group>"; };
-		0156976C1E953E2F0037FF07 /* BRStreet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRStreet.m; sourceTree = "<group>"; };
-		0156976E1E953E3E0037FF07 /* BRSpeedWay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRSpeedWay.h; sourceTree = "<group>"; };
-		0156976F1E953E3E0037FF07 /* BRSpeedWay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRSpeedWay.m; sourceTree = "<group>"; };
-		015697711E953EA90037FF07 /* BRCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRCar.h; sourceTree = "<group>"; };
-		015697721E953EA90037FF07 /* BRCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRCar.m; sourceTree = "<group>"; };
-		015697741E953EB30037FF07 /* BRBus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBus.h; sourceTree = "<group>"; };
-		015697751E953EB30037FF07 /* BRBus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRBus.m; sourceTree = "<group>"; };
 		015697771E953EF40037FF07 /* Bridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bridge.m; sourceTree = "<group>"; };
 		015697791E9541730037FF07 /* BRAbstractPeople.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAbstractPeople.h; sourceTree = "<group>"; };
 		0156977A1E9541730037FF07 /* BRAbstractPeople.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAbstractPeople.m; sourceTree = "<group>"; };
-		0156977D1E9542410037FF07 /* BRMan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRMan.h; sourceTree = "<group>"; };
-		0156977E1E9542410037FF07 /* BRMan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRMan.m; sourceTree = "<group>"; };
-		015697801E9542500037FF07 /* BRWoman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRWoman.h; sourceTree = "<group>"; };
-		015697811E9542500037FF07 /* BRWoman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRWoman.m; sourceTree = "<group>"; };
 		018A84C91E8D370E00AA7032 /* DEComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEComponent.h; sourceTree = "<group>"; };
 		018A84CA1E8D390C00AA7032 /* DEBaseCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEBaseCar.h; sourceTree = "<group>"; };
 		018A84CB1E8D390C00AA7032 /* DEBaseCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEBaseCar.m; sourceTree = "<group>"; };
@@ -591,26 +573,6 @@
 		015697641E9534BB0037FF07 /* Bridge(桥接模式) */ = {
 			isa = PBXGroup;
 			children = (
-				0156977C1E9541770037FF07 /* 抽象基类 */,
-				0156976B1E953E2F0037FF07 /* BRStreet.h */,
-				0156976C1E953E2F0037FF07 /* BRStreet.m */,
-				0156976E1E953E3E0037FF07 /* BRSpeedWay.h */,
-				0156976F1E953E3E0037FF07 /* BRSpeedWay.m */,
-				015697711E953EA90037FF07 /* BRCar.h */,
-				015697721E953EA90037FF07 /* BRCar.m */,
-				015697741E953EB30037FF07 /* BRBus.h */,
-				015697751E953EB30037FF07 /* BRBus.m */,
-				0156977D1E9542410037FF07 /* BRMan.h */,
-				0156977E1E9542410037FF07 /* BRMan.m */,
-				015697801E9542500037FF07 /* BRWoman.h */,
-				015697811E9542500037FF07 /* BRWoman.m */,
-			);
-			name = "Bridge(桥接模式)";
-			sourceTree = "<group>";
-		};
-		0156977C1E9541770037FF07 /* 抽象基类 */ = {
-			isa = PBXGroup;
-			children = (
 				015697651E9539840037FF07 /* BRAbstractRoad.h */,
 				015697661E9539840037FF07 /* BRAbstractRoad.m */,
 				015697681E9539E60037FF07 /* BRAbstractCar.h */,
@@ -618,7 +580,7 @@
 				015697791E9541730037FF07 /* BRAbstractPeople.h */,
 				0156977A1E9541730037FF07 /* BRAbstractPeople.m */,
 			);
-			name = "抽象基类";
+			name = "Bridge(桥接模式)";
 			sourceTree = "<group>";
 		};
 		018A84C81E8D363400AA7032 /* Decorator(装饰模式) */ = {
@@ -907,15 +869,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				015697701E953E3E0037FF07 /* BRSpeedWay.m in Sources */,
 				015697411E9518790037FF07 /* AFASIHTTPRequestTool.m in Sources */,
 				018A84E51E8DF26200AA7032 /* PRHousekeeper.m in Sources */,
-				015697761E953EB30037FF07 /* BRBus.m in Sources */,
 				0152F0411E8C0EE60086F608 /* STSwimming.m in Sources */,
 				0152F0441E8C10100086F608 /* STRunning.m in Sources */,
 				010F0DA11E97CD7E009F7CB1 /* SEMorningState.m in Sources */,
 				011DF5BA1E9BBC2900FC5D88 /* MECaretaker.m in Sources */,
-				0156976D1E953E2F0037FF07 /* BRStreet.m in Sources */,
 				018A85011E8E852800AA7032 /* FACooker.m in Sources */,
 				011DF5B41E9BB8E900FC5D88 /* MEOriginator.m in Sources */,
 				0152F0361E8C09300086F608 /* TMDog.m in Sources */,
@@ -934,7 +893,6 @@
 				0156972C1E93D8E40037FF07 /* OBStudentA.m in Sources */,
 				018A850C1E8F3CA500AA7032 /* BUPlane.m in Sources */,
 				018A84DC1E8D578300AA7032 /* Singleton.m in Sources */,
-				015697731E953EA90037FF07 /* BRCar.m in Sources */,
 				018A84D61E8D4C6100AA7032 /* PRVendor.m in Sources */,
 				0156976A1E9539E60037FF07 /* BRAbstractCar.m in Sources */,
 				018A84E21E8DF23100AA7032 /* PRMaster.m in Sources */,
@@ -966,9 +924,7 @@
 				018A84D91E8D4D5A00AA7032 /* PRBusinessAgent.m in Sources */,
 				015697671E9539840037FF07 /* BRAbstractRoad.m in Sources */,
 				018A84FB1E8E84B800AA7032 /* FAFood.m in Sources */,
-				015697821E9542500037FF07 /* BRWoman.m in Sources */,
 				01EC70231EA1AB7500F08EF7 /* FMMobilePhoneFactory.m in Sources */,
-				0156977F1E9542410037FF07 /* BRMan.m in Sources */,
 				0156977B1E9541730037FF07 /* BRAbstractPeople.m in Sources */,
 				0152F0501E8C9F440086F608 /* SMMobilePhone.m in Sources */,
 				01EC70171E9D2E4B00F08EF7 /* CDCommand.m in Sources */,

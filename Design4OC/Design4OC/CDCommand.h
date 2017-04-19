@@ -23,3 +23,5 @@
 @interface CDAttackShipCommand : CDCommand @end
 //攻击飞机命令
 @interface CDAttackAirplaneCommand : CDCommand @end
+
+@interface CDDefenseCommand : CDCommand @end

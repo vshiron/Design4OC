@@ -45,3 +45,11 @@
 }
 
 @end
+//防御命令
+@implementation CDDefenseCommand
+
+-(void)excuteCommand{
+    [self.warship defense];
+}
+
+@end
